@@ -1,21 +1,21 @@
-*{
-  margin: 0;
-  padding: 10px;
-  box-sizing: border-box;
-}
-#navbar {
-  display: flex;
-  justify-content: space-around;
-  background-color: brown;
-  padding: 20px;
-   list-style: none;
-   position: fixed;
-   gap: 10px;
-   width: 95%;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-li a {
-  text-decoration: none;
-   color: aliceblue;
-   list-style: none;
+body {
+    background-color: rgb(96, 2, 2);
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(15, 15, 26, 0.95);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+   
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    
 }
